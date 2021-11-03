@@ -1,0 +1,116 @@
+
+
+
+
+
+
+h1
+{color:fuchsia;
+font-size: 500%;
+text-align: center;
+}
+p
+{text-align: right;
+
+}
+h1.double
+{border-style: double;
+border-color:deeppink;
+border-radius: 12px;
+border-width: 5px;
+}
+a.link1:link
+{text-decoration: none;
+color:brown;
+background-color: transparent;
+font-size: 300%;
+}
+a.link1:visited
+{text-decoration: none;
+color: whitesmoke;
+background-color: violet;
+}
+a.link1:hover
+{text-decoration: underline;
+color: thistle;
+background-color:transparent;
+}
+a.link1:active
+{text-decoration: underline;
+color: cadetblue;
+background-color: transparent;
+}
+
+a.link2:link
+{text-decoration: none;
+color: darkred;
+background-color: gold;
+font-size: 200%;
+}
+a.link2:visited
+{text-decoration: none;
+color: honeydew;
+background-color: transparent;
+}
+a.link2:hover
+{text-decoration: underline;
+color: wheat;
+background-color: transparent;
+}
+a.link2:active
+{text-decoration: none;
+color: turquoise;
+background-color: transparent;
+}
+a.link3:link
+{text-decoration: none;
+color: cornflowerblue;
+background-color: transparent;
+font-size: 100%;
+}
+a.link3:visited
+{text-decoration: none;
+color: darkred;
+background-color: darkslateblue;
+}
+a.link3:hover
+{text-decoration: none;
+color: dimgray;
+background-color: transparent;
+}
+a.link3:active
+{text-decoration: none;
+color: cadetblue;
+background-color: transparent;
+}
+a.link4:link
+{text-decoration: none;
+color: chocolate;
+background-color: darkorange;
+font-size: 300%;
+}
+a.link4:visited
+{text-decoration: none;
+color: darkseagreen;
+background-color:transparent;
+}
+a.link4:hover
+{text-decoration: none;
+color:cadetblue;
+background-color: transparent;
+}
+a.link4:active
+{text-decoration: none;
+color: wheat;
+background-color: transparent;
+}
+img
+{border-radius: 15px;
+}
+h2
+{
+    text-align: left;
+    font-size: 400%;
+    color: grey;
+    
+}

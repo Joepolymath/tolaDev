@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+h1{
+    font-size: 800%;
+    color: crimson;
+    text-align: center;
+}
+p{
+    font-size: 200%;
+    color: darkkhaki;
+}
+body{
+    background-color: darkred;
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+input[type=submit]{
+    background-color: dodgerblue;
+    color: gainsboro;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+input[type=submit]:hover{
+background-color: honeydew;
+}
+.container{
+    border-radius: 5px;
+background-color: ivory;
+padding: 20px;
+}
+.col-25{
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+.col-75{
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+  display: table;
+  clear: both;
+}
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+    margin-top: 0;
+    }
+}
+</style>
+</head>
+    <body>
+        <!-- heading -->
+        <heading>
+    <div>
+    <h1><i>Contact me</i></h1>
+    </div>
+        </heading>
+        <div>
+            <P>Do you want me to work for you?contact me here.I love meeting with new people.. </P>
+        </div>
+    <div class="container">
+        <form>
+        <div class="row">
+        <div class="col-25">
+        <label for="fname">First name</label>
+        </div>
+        <div class="col-75">
+        <input type="text" id="fname" name="First mame" placeholder="Your name.....">
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-25">
+        <label for="lname">Last name</label>
+        </div>
+        <div class="col-75">
+        <input type="text" id="lname" name="Last name" placeholder="Your last name.....">
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-25">
+        <label for="country">Country</label>
+        </div>
+        <div class="col-75">
+        <select id="country" name="country">
+        <option value="Canada">Canada</option>
+        <option value="Nigeria">Nigeria</option>
+        <option value="USA">USA</option>
+        <option value="Other">Other</option>
+        </select>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-25">
+        <label for="message">Message</label>
+            </div>
+                <div class="col-75">
+                <textarea id="message" name="Massage" placeholder="Write a message please" style="height: 200px;"></textarea>
+                </div>
+            </div>
+            <div class="row">
+            <input type="submit" value="submit">
+            </div>
+        </form>
+    </div>
+    <a href="index.html">Go back Home</a>
+
+
+    </body>
+</html>
